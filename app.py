@@ -31,9 +31,11 @@ if dark_mode:
         </style>
     """, unsafe_allow_html=True)
 
+# --- App Title ---
 st.title("🎭 VibeCheck AI")
 st.subheader("Let AI roast or toast your vibe.")
 
+# --- User Input ---
 name = st.text_input("Enter your name")
 
 if st.button("🔥 Hit Me!"):
@@ -62,14 +64,45 @@ if st.button("🔥 Hit Me!"):
             tts.write_to_fp(mp3_fp)
             st.audio(mp3_fp.getvalue(), format="audio/mp3")
 
-# Leaderboard / History
+# --- Leaderboard / History ---
 if st.session_state.history:
     st.markdown("---")
     st.markdown("📊 **Leaderboard This Session**")
     for i, (m, txt) in enumerate(reversed(st.session_state.history[-5:]), 1):
         st.markdown(f"**{i}.** *{m}* - {txt}")
 
-# Share feature
+# --- Share feature ---
 if share_text and st.session_state.history:
     st.markdown("✅ Copy the last vibe:")
     st.code(st.session_state.history[-1][1])
+
+# --- Fancy Footer / Watermark ---
+st.markdown("""
+    <style>
+    .footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        padding-top: 20px;
+        text-align: center;
+        font-size: 0.9em;
+        color: #888;
+        transition: color 0.3s ease;
+    }
+    .footer:hover {
+        color: #f63366;
+    }
+    .footer a {
+        color: inherit;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    </style>
+
+    <div class="footer">
+        🚀 Developed with ❤️ by 
+        <a href="https://www.linkedin.com/in/kaif-ansarib9/" target="_blank">Kaif Ansari</a> |
+        <a href="https://github.com/Kaifansar1" target="_blank">GitHub</a><br>
+        Built using 🐍 Python, 🤖 Streamlit & 🎨 GPT-Powered AI
+    </div>
+""", unsafe_allow_html=True)
