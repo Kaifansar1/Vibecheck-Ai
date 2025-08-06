@@ -43,7 +43,7 @@ VibeCheck AI uses prompt engineering and generative AI logic to either **roast**
 
 ## 🌍 Try It Live
 
-🔗 [https://your-username-vibecheck-ai.streamlit.app](https://your-username-vibecheck-ai.streamlit.app)
+🔗 https://vibecheck-ai-e3dcgr2vrx3uv7bxcvbahd.streamlit.app/
 
 ---
 
