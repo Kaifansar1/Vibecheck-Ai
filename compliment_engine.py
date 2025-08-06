@@ -1,12 +1,19 @@
 import random
 
 compliments = [
-    "You're doing amazing, {name}!",
-    "You're a gift to those around you.",
-    "You're someone's reason to smile today.",
-    "You're sharper than the edge of Excalibur.",
-    "You're brighter than my screen at 3 AM."
+    "You're like sunshine on a rainy day.",
+    "You bring out the best in everyone.",
+    "Your smile can light up a whole room.",
+    "You're a walking inspiration.",
+    "You're proof that kindness is still alive.",
+    "You're one of a kind!",
+    "You're like a cheat code for happiness.",
+    "You're the plot twist everyone needed.",
+    "You're smarter than ChatGPT... maybe.",
+    "You're the MVP of good vibes.",
+    "You're the reason glitter exists.",
+    "You're what happens when brilliance meets personality!"
 ]
 
 def generate_compliment(name):
-    return random.choice(compliments).replace("{name}", name)
+    return f"{name}, {random.choice(compliments)}"
