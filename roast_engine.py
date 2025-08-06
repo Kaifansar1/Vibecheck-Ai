@@ -2,7 +2,7 @@ import random
 
 roasts = [
     # 🧠 Light-hearted, witty roasts
-    "You're like a cloud. When you disappear, it's a beautiful day.",
+ '''   "You're like a cloud. When you disappear, it's a beautiful day.",
     "You're proof that even evolution takes breaks.",
     "You're not stupid; you just have bad luck thinking.",
     "You have something on your chin... no, the third one down.",
@@ -13,7 +13,7 @@ roasts = [
     "You’re the reason they put instructions on shampoo bottles.",
     "You're like a WiFi signal in the basement—weak and disappointing.",
     "You're the human version of a participation trophy.",
-    "You're the AI's favorite test case: always crashing!",
+    "You're the AI's favorite test case: always crashing!", '''
 
     # 🔥 DARK + NSFW + Savage Roasts (⚠️ for friends only)
     # ---------------------------------------------------------------
