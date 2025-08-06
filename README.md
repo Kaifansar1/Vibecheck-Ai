@@ -1,6 +1,8 @@
 
 # 🔥 VibeCheck AI – Roast or Compliment with a Click!
 
+Live Link (🔗 https://vibecheck-ai-e3dcgr2vrx3uv7bxcvbahd.streamlit.app/) 
+
 **VibeCheck AI** is a fun, AI-powered Streamlit web app that instantly delivers savage roasts or sweet compliments based on your name. Whether you're looking for a hilarious burn or a confidence boost, VibeCheck AI has got you covered — with style, emojis, and a touch of AI magic 🤖✨
 
 ---
