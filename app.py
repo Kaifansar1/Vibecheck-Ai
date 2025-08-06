@@ -100,7 +100,7 @@ st.markdown("""
     </style>
 
     <div class="footer">
-        🚀 Developed with ❤️ by 
+        🚀 Developed by 
         <a href="https://www.linkedin.com/in/kaif-ansarib9/" target="_blank">Kaif Ansari</a> |
         <a href="https://github.com/Kaifansar1" target="_blank">GitHub</a><br>
         Built using 🐍 Python, 🤖 Streamlit & 🎨 GPT-Powered AI
